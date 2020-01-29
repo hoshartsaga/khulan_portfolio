@@ -1,0 +1,188 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* HOME IMAGE */
+header{
+  background:url("/Users/khulanhoshartsaga/Desktop/Personal/Portfolio/sunset.png");
+  height: 100vh;
+  width: 100vw;
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: center center;
+  position: relative;
+}
+
+
+/* FONTS and TEXT in Header Class */
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+@font-face {
+    font-family: "Brusher";
+    src: url("https://font-public.canva.com/YACgETZUM1Y/0/Brusher.4c88f70cbfa350e5ffca9c2342bb2a5b.woff") format('woff');
+}
+
+@font-face {
+    font-family: "GlacialIndifferenceBold";
+    src: url("https://font-public.canva.com/YACgETiWKS8/0/GlacialIndifferenceBold.2ec92b02b60ca534233d818f6b216260.woff") format('woff');
+}
+
+h1 {
+  font-family: "Brusher";
+  color: #FFEFE9;
+  padding-top: 10%;
+  font-size: 800%;
+}
+
+h2 {
+  font-family: "GlacialIndifferenceBold";
+  color: #846d7f;
+  padding: 40px;
+  font-size: 200%;
+}
+
+h3 {
+  font-family: "Brusher";
+  color: #20385a;
+  padding-top: 1%;
+  font-weight: 500;
+  margin: 0;
+  letter-spacing: -1px;
+  font-size: 125px;
+}
+
+h4 {
+
+
+
+/* Text Align */
+.center {
+  text-align: center;
+}
+
+
+/* Navbar */
+.navbar {
+  font-size: 18px;
+  background-color: #BBBFCB;
+  padding-bottom: 10px;
+}
+
+.main-nav {
+  list-style-type: none;
+  display: none;
+}
+
+.nav-links,
+.logo {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+}
+
+.active {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
+
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .logo:hover,
+  .nav-links:hover {
+    color: rgba(RGBA(255,239,233,1));
+  }
+}
+
+
+/* Content */
+#content {
+  margin-top: 50px;
+}
+
+#content div {
+  height: 100vh;
+  /* align the text in the middle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#Bio {
+  width: 100%;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  background-color: #aa95a5;
+}
+
+#Blog {
+  background-color: #aa95a5;
+}
+
+#Portfolio {
+  background-color: #aa95a5;
+}
+
+#Resume {
+  background-color: #aa95a5;
+}
+
+#Contact {
+  background-color: #aa95a5;
+}

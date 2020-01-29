@@ -1,0 +1,86 @@
+/* Imported Fonts */
+@font-face {
+    font-family: "GlacialIndifferenceBold";
+    src: url("https://font-public.canva.com/YACgETiWKS8/0/GlacialIndifferenceBold.2ec92b02b60ca534233d818f6b216260.woff") format('woff');
+}
+
+@font-face {
+    font-family: "Brusher";
+    src: url("https://font-public.canva.com/YACgETZUM1Y/0/Brusher.4c88f70cbfa350e5ffca9c2342bb2a5b.woff") format('woff');
+}
+
+/*---------- Start of CSS ----------*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: GlacialIndifferenceBold;
+}
+
+/*---------- Navigation ----------*/
+ul.topnav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #B6B8C5;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: #FFFAF2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #CFA8A6;
+}
+
+ul.topnav li a.active {
+  background-color: #CFA8A6;
+}
+
+ul.topnav li.right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
+
+  /*---------- Home ----------*/
+
+
+
+
+
+
+
+
+
+/*---------- Content ----------*/
+#content {
+  margin-top: 50px;
+}
+
+#content div {
+  height: 100vh;
+  /* align the text in the middle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
